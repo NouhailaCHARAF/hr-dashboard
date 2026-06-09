@@ -42,7 +42,7 @@ dataBody.innerHTML += `<tr>
         <td>${item.email}</td>
         <td>${item.role}</td>
         <td>${item.status}</td>
-        <td><button class="btn-update btn btn-warning" data-id="${item.id}">Update</button>
+        <td class="d-flex flex-wrap gap-2 pt-3"><button class="btn-update btn btn-warning" data-id="${item.id}">Update</button>
         <button class="btn-delete btn btn-danger" data-id="${item.id}">Delete</button></td>
       </tr>`
 
