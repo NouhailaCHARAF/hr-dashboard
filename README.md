@@ -72,16 +72,6 @@ After obtaining a diploma in programming and working in WordPress & SEO, I decid
 
 ---
 
-## 📸 Screenshots
-
-| Login Page | Dashboard View |
-|------------|----------------|
-| ![Login Page](assets/images/login-screenshot.png) | ![Dashboard](assets/images/dashboard-screenshot.png) |
-
-*(Replace with your actual screenshots)*
-
----
-
 ## 🚀 Getting Started
 
 ### Prerequisites
