@@ -1,0 +1,116 @@
+ 
+        :root {
+            --primary-dark: #0f172a; /* Deep elegant slate black */
+            --accent-blue: #3b82f6;
+            --input-bg: #f8fafc;
+        }
+
+        body {
+            background-color: #f1f5f9;
+            min-height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        /* Split layout wrapper */
+        .login-container {
+            min-height: 100vh;
+            display: flex;
+        }
+
+        /* Left Side: Form Area */
+        .form-section {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #ffffff;
+            padding: 40px;
+        }
+
+        .login-wrapper {
+            width: 100%;
+            max-width: 360px;
+        }
+
+        /* Brand Typography */
+        .brand-title {
+            font-size: 28px;
+            color: var(--primary-dark);
+            letter-spacing: -0.5px;
+        }
+
+        /* Modernized Inputs */
+        .form-label {
+            font-weight: 600;
+            color: #475569;
+            margin-bottom: 6px;
+        }
+
+        .form-control {
+            background-color: var(--input-bg);
+            border: 1px solid #e2e8f0;
+            padding: 12px 16px;
+            border-radius: 8px;
+            font-size: 15px;
+            transition: all 0.2s ease-in-out;
+        }
+
+        .form-control:focus {
+            background-color: #ffffff;
+            border-color: var(--accent-blue);
+            box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.1);
+        }
+
+        /* Premium Button Style */
+        .btn-submit {
+            background-color: var(--primary-dark);
+            color: #ffffff;
+            border: none;
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 15px;
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+
+        .btn-submit:hover {
+            background-color: #1e293b;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(15, 23, 42, 0.15);
+        }
+
+        .btn-submit:active {
+            transform: translateY(0);
+        }
+
+        /* Right Side: Professional Visual Area */
+        .visual-section {
+            flex: 1.2;
+            background: linear-gradient(135deg, #090d16 0%, #111827 100%);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 60px;
+            position: relative;
+            color: #ffffff;
+        }
+
+        /* Hide visual side on tablet/mobile screens to stay fully responsive */
+        @media (max-width: 991px) {
+            .visual-section {
+                display: none;
+            }
+        }
+
+        .visual-card {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 16px;
+            padding: 40px;
+            max-width: 440px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+        }
+    

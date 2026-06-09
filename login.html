@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/login-style.css">
+   
+</head>
+<body>
+
+<div class="login-container">
+    
+    <div class="form-section">
+        <div class="login-wrapper">
+            <div class="mb-5">
+                <h3 class="brand-title fw-bold mb-1">Welcome Back</h3>
+                <p class="text-muted small">Enter your credentials to access the console.</p>
+            </div>
+
+            <form id="loginForm">
+                <div class="mb-3">
+                    <label for="email" class="form-label small">Email Address</label>
+                    <input type="email" id="email" class="form-control" placeholder="username@company.com" autocomplete="off" required>
+                </div>
+
+                <div class="mb-4">
+                    <div class="d-flex justify-content-between align-items-center mb-1">
+                        <label for="password" class="form-label small mb-0">Password</label>
+                        <a href="#" class="text-decoration-none small text-primary fw-medium" style="font-size: 13px;">Forgot?</a>
+                    </div>
+                    <input type="password" id="password" class="form-control" placeholder="••••••••" autocomplete="off" required>
+                </div>
+
+                <div id="message" class="small mb-3 fw-semibold text-center" style="min-height: 20px;"></div>
+
+                <button type="submit" id="loginBtn" class="btn btn-submit w-100">
+                    Sign In
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <div class="visual-section">
+        <div class="visual-card text-center">
+            <div class="mb-4">
+                <div class="bg-primary bg-opacity-10 text-primary rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 56px; height: 56px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-shield-lock" viewBox="0 0 16 16">
+                        <path d="M5.338 1.51a1 1 0 0 1 1.324-.047l.08.077L10 4.293l3.258-2.753a1 1 0 0 1 1.404 1.425l-.077.081-3.924 3.32a1 1 0 0 1-1.324.047l-.08-.077L5.338 1.51z"/>
+                        <path fill-rule="evenodd" d="M8 1a7 7 0 0 0-7 7v1a6 6 0 0 0 6 6h2a6 6 0 0 0 6-6V8a7 7 0 0 0-7-7zM2 8a6 6 0 0 1 6-6h0a6 6 0 0 1 6 6v1a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5V8z"/>
+                    </svg>
+                </div>
+                <h4 class="fw-bold mb-2">HR Management System</h4>
+                <p class="text-white-50 small mb-0">An integrated HR portal designed for secure personnel tracking, instant workforce data management, and real-time administrative control.</p>
+            </div>
+            <div class="border-top border-white border-opacity-10 pt-3">
+                <span class="badge bg-info bg-opacity-25 text-info-50 px-3 py-2 rounded-pill font-monospace small">v2.4.0-stable</span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<script type="module" src="./js/login.js" defer></script>
+
+
+</body>
+</html>

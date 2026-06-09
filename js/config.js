@@ -1,0 +1,2 @@
+export const SUPABASE_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5xemJneGVvb2tid2d4cnJ6dmh2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODAyMzg0MjYsImV4cCI6MjA5NTgxNDQyNn0.OBIbUkXhtwe2mwIOvVqSZjY6MXLOsQFcE2TT0Gxcr3c"
+export const SUPABASE_URL="https://nqzbgxeookbwgxrrzvhv.supabase.co"
