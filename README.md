@@ -20,7 +20,6 @@ After obtaining a diploma in programming and working in WordPress & SEO, I decid
 ## 📚 Table of Contents
 - [Features](#-features)
 - [Technology Stack](#-technology-stack)
-- [Screenshots](#-screenshots)
 - [Getting Started](#-getting-started)
 - [Project Structure](#-project-structure)
 - [Future Plans](#-future-plans)
